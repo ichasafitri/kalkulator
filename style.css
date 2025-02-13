@@ -1,0 +1,117 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .img {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal (jika ada tinggi tertentu) */
+    width: 100px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    /* width: 100%; */
+  }
+  .kotak1 {
+    width: 700px; /*lebar */
+    height: 900px; /*tinggi */
+    background-color: rgb(215, 237, 235);
+    border-radius: 10px; /*lengkung sudut */
+    display: grid;
+    margin: 0 auto; /*mengatur posisi ke tengah*/
+    justify-content: center; /*agar di tengah */
+    box-shadow: 10px 10px 50px; /*bayangan */
+  }
+  
+  .kotak2 {
+    width: 600px;
+    height: 750px;
+    background-color: rgb(116, 148, 179);
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  .kotak3 {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(161, 205, 220);
+    display: grid;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .kotak4 {
+    width: 400px;
+    height: 350px;
+    background-color: rgb(130, 197, 220);
+    display: grid;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .row {
+    /*buat baris baru*/
+    width: 400px;
+    /* text-align: center; */
+  }
+  .kolom1 {
+    width: 30%; 
+    float: left; 
+    padding: 10px;
+ }
+  .kolom2 {
+    width: 60%; 
+    float: left;
+    padding: 10px;
+  }
+  .hargaawal {
+    width: 200px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  .diskon {
+    width: 50px;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  .text1 {
+    margin: 10px;
+    color: rgb(246, 230, 255);
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 2px 2px 11px;
+  }
+  
+  .text2 {
+    margin: 0 auto;
+    margin-top: 2px;
+    color: rgb(246, 230, 255);
+    text-align: left;
+    font-size: 18px;
+    text-shadow: 2px 2px 11px;
+  }
+  .tombol {
+    width: 60px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(112, 153, 209);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .tombol:hover {
+    background: linear-gradient(
+      90deg,
+      #422899,
+      #5240b8
+    ); /* Efek hover lebih gelap */
+  }
