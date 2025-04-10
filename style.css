@@ -1,5 +1,8 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: url(background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .img {
@@ -20,7 +23,7 @@ body {
   .kotak1 {
     width: 700px; /*lebar */
     height: 900px; /*tinggi */
-    background-color: rgb(215, 237, 235);
+    background-color:#E1AFD1;
     border-radius: 10px; /*lengkung sudut */
     display: grid;
     margin: 0 auto; /*mengatur posisi ke tengah*/
@@ -31,24 +34,24 @@ body {
   .kotak2 {
     width: 600px;
     height: 750px;
-    background-color: rgb(116, 148, 179);
+    background-color: #AD88C6;
     border-radius: 10px;
     margin-top: 50px;
   }
   
   .kotak3 {
     width: 400px;
-    height: 150px;
-    background-color: rgb(161, 205, 220);
-    display: grid;
+    height: 200px;
+    background-color: #7469B6;
+    padding: 5px;
     margin: 0 auto;
     border-radius: 5px;
   }
   
   .kotak4 {
     width: 400px;
-    height: 350px;
-    background-color: rgb(130, 197, 220);
+    height: 300px;
+    background-color: #E8A0BF;
     display: grid;
     margin: 0 auto;
     margin-top: 20px;
@@ -82,7 +85,7 @@ body {
   }
   .text1 {
     margin: 10px;
-    color: rgb(246, 230, 255);
+    color:#F9F9F9;
     text-align: center;
     font-size: 24px;
     text-shadow: 2px 2px 11px;
@@ -91,17 +94,18 @@ body {
   .text2 {
     margin: 0 auto;
     margin-top: 2px;
-    color: rgb(246, 230, 255);
+    color:#F9F9F9;
     text-align: left;
     font-size: 18px;
     text-shadow: 2px 2px 11px;
+    font-weight: bold;
   }
   .tombol {
     width: 60px;
     padding: 4px;
     border-radius: 5px;
-    background-color: rgb(112, 153, 209);
-    color: white;
+    background-color: #FDEBED;
+    color: #A267AC;
     cursor: pointer;
     transition: 1s;
     font-weight: bold;
@@ -111,7 +115,22 @@ body {
   .tombol:hover {
     background: linear-gradient(
       90deg,
-      #422899,
+      #4f4472,
       #5240b8
     ); /* Efek hover lebih gelap */
+  }
+  .tabel{
+    margin: 0 auto;
+    padding: 5px;
+    position: absolute;
+  }
+  .tabel1{
+    margin: 10px;
+  }
+  .text-hasil{
+    margin-bottom: 10px;
+    color:#F9F9F9;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 2px 2px 11px;
   }

@@ -1,0 +1,93 @@
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px; 
+}
+.kotak1{
+    width: 700px;
+    height: 900px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: grid;
+    margin: 0auto;
+    justify-content: center;
+    box-shadow: 10px 10px 50px;
+}
+.kotak2{
+    width: 600px;
+    height: 750px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.kotak3{
+    width: 400px;
+    height: 200px;
+    background-color: darksalmon;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.kotak4{
+    width: 400px;
+    height: 200px;
+    background-color: mediumslateblue;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.row{
+    width: 300px;
+}
+.kolom1{
+    width: 30px;
+    float: left;
+    padding: 10px;
+}
+.hargaawal{
+    width: 200px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.diskon{
+    width: 50px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.text1{
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 2px 2px 11px;
+}
+.text2{
+    margin: 0 auto;
+    margin-top: 2px;
+    color: aliceblue;
+    text-align: left;
+    font-size: 18px;
+    text-shadow: 2px 2px 11px;
+    font-weight: bold;
+}
+.tombol1{
+    width: 60px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #FDEBED;
+    color: #A26;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+    text-align: center;
+
+}
